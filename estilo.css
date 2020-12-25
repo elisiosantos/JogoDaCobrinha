@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+
+}
+
+.caixa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    background: #eee;
+  }
+
+  .caixa p {
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+  }
+
+  .caixa button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 1.1rem;
+    color: #aaa;
+  }
+
+  #reset{
+      background:rgb(255, 255, 255);
+      margin-top: 19px;
+      border:none;
+      overflow: none;
+      overflow-inline: none;
+      text-align: center;
+      color:rgb(0, 0, 0);
+      font-size:19px;
+  }
+
+  h1{
+      color:white;
+  }
+  p{
+      color:white;
+  }
